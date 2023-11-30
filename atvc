@@ -1,0 +1,36 @@
+import mysql.connector
+
+Conectar = mysql.connector. connect
+
+
+
+nome = input()
+email = input()
+genero = input()
+cpf = input()
+telefone = input ()
+Motos = input()
+CNH = input ()
+
+if nome == '':
+    print('Campo obrigatorio')
+
+if email == '':
+    print('Campo obrigatorio')
+    
+if genero== '':
+    print('F, M, Outros')
+
+if cpf == '':
+    print('Campo obrigatorio')
+
+if telefone == '':
+    print('Campo obrigatorio')
+
+if Motos == '':
+    print('pop, biz, XRE300')
+
+if CNH == '':
+    print('Campo obrigatorio')
+
+
